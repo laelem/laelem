@@ -1,0 +1,43 @@
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@mixin border_radius($top_left, $top_right, $bottom_right, $bottom_left) {
+  -moz-border-radius: $top_left $top_right $bottom_right $bottom_left;
+  -webkit-border-radius: $top_left $top_right $bottom_right $bottom_left;
+  border-radius: $top_left $top_right $bottom_right $bottom_left;
+}
+
+@mixin vertical_gradient($color1, $color2) {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, $color1),
+    color-stop(1, $color2)
+  );
+  background-image: -o-linear-gradient(bottom, $color1 0%, $color2 100%);
+  background-image: -moz-linear-gradient(bottom, $color1 0%, $color2 100%);
+  background-image: -webkit-linear-gradient(bottom, $color1 0%, $color2 100%);
+  background-image: -ms-linear-gradient(bottom, $color1 0%, $color2 100%);
+  background-image: linear-gradient(to bottom, $color1 0%, $color2 100%);
+}
+
+@mixin box_shadow($offset-x, $offset-y, $blur, $color) {
+  -moz-box-shadow: $offset-x $offset-y $blur $color;
+  -webkit-box-shadow: $offset-x $offset-y $blur $color;
+  box-shadow: $offset-x $offset-y $blur $color;
+}
+
+$police_default: Arial, Helvetica, FreeSans, sans-serif;
+$police_titre: "Syncopate", $police_default;
+
+$orange: #FF6A1A;
+$blue: #2D78EF;
+$green: #1ADC11;
+$gris_25: lighten(black, 25%);
+$gris_10: lighten(black, 10%);
+$gris_80: lighten(black, 80%);
+

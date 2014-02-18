@@ -1,0 +1,20 @@
+fr:
+  common:
+    visit: Visiter
+    doc: Documentation
+    source_code: Code source
+  apps:
+    title: Mes applications
+    content:
+      cv:
+        title: Mon CV
+        content: "Je vous présente à travers ce site mon parcours professionnel, l'évaluation de mes compétences techniques ainsi qu'une description de quelques une de mes missions."
+
+      shared_directory:
+        title: Annuaire partagé
+        content: "Cet intranet riche en fonctionnalités a été développé dans le but de monter en compétence sur les technologies Ruby on Rails et d'en faire la démonstration."
+
+      sample_app:
+        title: Sample App
+        content: "Réalisation de l'application finale du tutoriel Ruby on Rails de Michael Hartl : un Twitter simplifié"
+

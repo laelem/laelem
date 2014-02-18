@@ -1,0 +1,90 @@
+@import "mixin_var.scss";
+
+body{
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+#contain{
+  width: 900px;
+  margin: 5em auto 0 auto;
+}
+
+h1, h2{
+  font-weight: normal;
+  font-family: $police_titre;
+}
+
+h1{
+  border-bottom: 1px dashed #ccc;
+}
+
+ul{
+  margin: 0;
+}
+
+li{
+  @include box_sizing;
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  list-style-type: none;
+  padding: 2em 1em;
+}
+
+p{
+  text-align: justify;
+  line-height: 1.8em;
+  height: 10em;
+}
+
+#app_cv{
+  color: $orange;
+  .button{
+    background-color: darken($orange, 20%);
+    &:hover{
+      background-color: darken($orange, 10%);
+    }
+  }
+}
+#app_shared_directory{
+  color: $blue;
+  .button{
+    background-color: darken($blue, 20%);
+    &:hover{
+      background-color: darken($blue, 10%);
+    }
+  }
+}
+#app_sample_app{
+  color: $green;
+  .button{
+    background-color: darken($green, 20%);
+    &:hover{
+      background-color: darken($green, 10%);
+    }
+  }
+}
+
+a{
+  &.button{
+    text-decoration: none;
+  }
+  &:link, &:visited{
+    color: white;
+  }
+}
+
+.button{
+  font-size: 1.2em;
+  display: block;
+  line-height: 2em;
+  padding: 0 1em;
+  margin: 1em 0;
+  color: white;
+  @include border_radius(5px, 5px, 5px, 5px);
+  &:hover{
+    background: $orange;
+  }
+}

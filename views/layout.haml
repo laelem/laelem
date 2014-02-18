@@ -1,0 +1,14 @@
+!!! 5
+%html
+  %head
+    %title Laëtitia Le Men
+    %meta{name: "description", content: "Laëtitia Le Men - #{I18n.t(:my_apps)}"}
+    %link{rel: "stylesheet", href: "css/reset.css", media: "all"}
+    %link{rel: "stylesheet", href: "css/styles.css", media: "all"}
+    %link{rel: "stylesheet", href: "http://fonts.googleapis.com/css?family=Syncopate"}
+    %link{rel: "stylesheet", href: "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"}
+    %link{rel: "shortcut icon", href: "favicon.ico"}
+  %body
+    %script{src: "http://html5shiv.googlecode.com/svn/trunk/html5.js"}
+    #contain
+      = yield

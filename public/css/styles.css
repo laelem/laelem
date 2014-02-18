@@ -1,0 +1,72 @@
+body {
+  background: black;
+  color: white;
+  text-align: center; }
+
+#contain {
+  width: 900px;
+  margin: 5em auto 0 auto; }
+
+h1, h2 {
+  font-weight: normal;
+  font-family: "Syncopate", Arial, Helvetica, FreeSans, sans-serif; }
+
+h1 {
+  border-bottom: 1px dashed #ccc; }
+
+ul {
+  margin: 0; }
+
+li {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  list-style-type: none;
+  padding: 2em 1em; }
+
+p {
+  text-align: justify;
+  line-height: 1.8em;
+  height: 10em; }
+
+#app_cv {
+  color: #ff6a1a; }
+  #app_cv .button {
+    background-color: #b33f00; }
+    #app_cv .button:hover {
+      background-color: #e65000; }
+
+#app_shared_directory {
+  color: #2d78ef; }
+  #app_shared_directory .button {
+    background-color: #0d49a9; }
+    #app_shared_directory .button:hover {
+      background-color: #105ed9; }
+
+#app_sample_app {
+  color: #1adc11; }
+  #app_sample_app .button {
+    background-color: #0f7d0a; }
+    #app_sample_app .button:hover {
+      background-color: #14ad0d; }
+
+a.button {
+  text-decoration: none; }
+a:link, a:visited {
+  color: white; }
+
+.button {
+  font-size: 1.2em;
+  display: block;
+  line-height: 2em;
+  padding: 0 1em;
+  margin: 1em 0;
+  color: white;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px; }
+  .button:hover {
+    background: #ff6a1a; }

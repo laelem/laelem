@@ -1,0 +1,14 @@
+apps:
+  cv:
+    url:
+      website: http://www.cv.laelem.fr
+      github: https://github.com/laelem/cv
+  shared_directory:
+    url:
+      website: http://www.shared-directory.laelem.fr
+      doc: "https://github.com/laelem/shared_directory#annuaire-partag%C3%A9"
+      github: https://github.com/laelem/shared_directory
+  sample_app:
+    url:
+      website: http://www.sample-app.laelem.fr
+      github: https://github.com/laelem/sample_app
