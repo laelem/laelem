@@ -1,4 +1,6 @@
 body {
+  background: black;
+  color: white;
   text-align: center; }
 
 #contain {
@@ -10,7 +12,7 @@ h1, h2 {
   font-family: "Syncopate", Arial, Helvetica, FreeSans, sans-serif; }
 
 h1 {
-  border-bottom: 1px dashed #555; }
+  border-bottom: 1px dashed #ccc; }
 
 ul {
   margin: 0; }
@@ -31,25 +33,25 @@ p {
   height: 10em; }
 
 #app_cv {
-  color: #ff5d00; }
+  color: #ff6a1a; }
   #app_cv .button {
-    background-color: #cc4a00; }
+    background-color: #b33f00; }
     #app_cv .button:hover {
-      background-color: #ff5d00; }
+      background-color: #e65000; }
 
 #app_shared_directory {
-  color: #0063ff; }
+  color: #2d78ef; }
   #app_shared_directory .button {
-    background-color: #004fcc; }
+    background-color: #0d49a9; }
     #app_shared_directory .button:hover {
-      background-color: #0063ff; }
+      background-color: #105ed9; }
 
 #app_sample_app {
-  color: #08b100; }
+  color: #1adc11; }
   #app_sample_app .button {
-    background-color: #067e00; }
+    background-color: #0f7d0a; }
     #app_sample_app .button:hover {
-      background-color: #08b100; }
+      background-color: #14ad0d; }
 
 a.button {
   text-decoration: none; }
@@ -67,4 +69,4 @@ a:link, a:visited {
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px; }
   .button:hover {
-    background: #ff5d00; }
+    background: #ff6a1a; }
