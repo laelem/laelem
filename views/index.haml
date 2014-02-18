@@ -1,10 +1,12 @@
 - apps = I18n.t :apps
 - lang = I18n.t :common
-%h1= apps[:title]
-%ul
+%header
+  %h1 Laëtitia Le Men
+  %h2= apps[:title]
+%ul#contain
   - apps[:content].each do |key, app|
     %li.app{id: "app_#{key}"}>
-      %h2= app[:title]
+      %h3= app[:title]
       %p= app[:content]
       %aside
         %a.button{href: @config['apps'][key.to_s]['url']['website'], target: "_blank"}= lang[:visit]

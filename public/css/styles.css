@@ -5,17 +5,23 @@ body {
 
 #contain {
   width: 900px;
-  margin: 5em auto 0 auto; }
+  margin: 0 auto; }
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: normal;
   font-family: "Syncopate", Arial, Helvetica, FreeSans, sans-serif; }
 
-h1 {
-  border-bottom: 1px dashed #ccc; }
+header {
+  margin-top: 5em;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 2em; }
+  header h1, header h2 {
+    padding: 0.5em 0; }
+  header h1 {
+    color: #888; }
 
-ul {
-  margin: 0; }
+h3 {
+  font-size: 1.4em; }
 
 li {
   -moz-box-sizing: border-box;
