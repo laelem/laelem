@@ -1,8 +1,6 @@
 @import "mixin_var.scss";
 
 body{
-  background: black;
-  color: white;
   text-align: center;
 }
 
@@ -17,7 +15,7 @@ h1, h2{
 }
 
 h1{
-  border-bottom: 1px dashed #ccc;
+  border-bottom: 1px dashed #555;
 }
 
 ul{
@@ -42,27 +40,27 @@ p{
 #app_cv{
   color: $orange;
   .button{
-    background-color: darken($orange, 20%);
+    background-color: darken($orange, 10%);
     &:hover{
-      background-color: darken($orange, 10%);
+      background-color: $orange;
     }
   }
 }
 #app_shared_directory{
   color: $blue;
   .button{
-    background-color: darken($blue, 20%);
+    background-color: darken($blue, 10%);
     &:hover{
-      background-color: darken($blue, 10%);
+      background-color: $blue;
     }
   }
 }
 #app_sample_app{
   color: $green;
   .button{
-    background-color: darken($green, 20%);
+    background-color: darken($green, 10%);
     &:hover{
-      background-color: darken($green, 10%);
+      background-color: $green;
     }
   }
 }
