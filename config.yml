@@ -1,14 +1,14 @@
 apps:
   cv:
     url:
-      website: http://www.cv.laelem.fr
+      website: http://laelem-cv.herokuapp.com
       github: https://github.com/laelem/cv
   shared_directory:
     url:
-      website: http://www.shared-directory.laelem.fr
+      website: http://laelem-shared-directory.herokuapp.com
       doc: "https://github.com/laelem/shared_directory#annuaire-partag%C3%A9"
       github: https://github.com/laelem/shared_directory
   sample_app:
     url:
-      website: http://www.sample-app.laelem.fr
+      website: https://laelem-sampleapp-railstutorial.herokuapp.com
       github: https://github.com/laelem/sample_app
